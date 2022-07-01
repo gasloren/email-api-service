@@ -1,5 +1,5 @@
 
-const SibSend = require('../endpoints/SibSibSend');
+const SibSend = require('../endpoints/SibSend');
 
 // --------------------------------------
 
