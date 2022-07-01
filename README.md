@@ -3,7 +3,8 @@
 ### Endpoints
 ` /email/send `
 
-!!! - Sendinblue SDK can be replaced on future
+**Using Sendinblue SDK**
+> **_NOTE:_** sib can be replaced in future
 
 - only localhost requests will be accepted
 - header api key required

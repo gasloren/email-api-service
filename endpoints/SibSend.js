@@ -10,10 +10,10 @@ const checkErrors = require('../validators/check-errors');
 
 // ------------------------------------------
 
-class SendSib {
+class SibSend {
 
   constructor(server) {
-    this.path = '/send/email';
+    this.path = '/email/send';
     this.server = server;
     this.sibApiKey = process.env.SIB_API_KEY;
     this.sibApiInstance = null;
@@ -66,4 +66,4 @@ class SendSib {
 
 }
 
-module.exports = SendSib;
+module.exports = SibSend;

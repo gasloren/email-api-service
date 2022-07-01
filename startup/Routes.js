@@ -1,12 +1,13 @@
 
-const SendEmail = require('../endpoints/SendEmail');
+const SibSend = require('../endpoints/SibSibSend');
 
 // --------------------------------------
 
 class Routes {
 
   constructor(server) {
-    this.sendEmail = new SendEmail(server);
+    this.sibSend = new SibSend(server);
+    // we can replace Sendinblue SDK in future if needed
   }
 
 }
